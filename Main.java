@@ -7,6 +7,7 @@ import java.util.concurrent.*;
 public class Main
 {
     public static void main(String[] args) {
+
         File folder = new File("C:\\Users\\Lenovo\\IdeaProjects\\workShop9\\assets");
         File[] filesList = folder.listFiles();
         ArrayList<MyTask> tasks = new ArrayList<>();
